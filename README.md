@@ -7,7 +7,7 @@
 - [TSL2561 Sensor](https://www.amazon.co.uk/gp/product/B0714N3RDB)
 
 ## Why?
-Summer is approaching and as I am on the western side of the building this leads to an uncomfortable place to relax in the afternoon on my days off. Normally I can just turn on the fan and thing begin to cool down, but I wanted a way to automate the process so that when things get to warm the fan kicks on automatically, even when I'm not around, to keep things cool.
+Summer is approaching and as I am on the western side of the building this leads to an uncomfortable place to relax in the afternoon on my days off. Normally I can just turn on the fan and things begin to cool down, but I wanted a way to automate the process so that when things get to warm the fan kicks on automatically, even when I'm not around, to keep things cool.
 
 The weather station will monitor conditions outside, both for upload to WeatherUnderground as well as to inform my envionmental controls.
 
