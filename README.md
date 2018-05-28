@@ -1,18 +1,21 @@
-# Huems | Weather and Environment Control
+# Medio | Weather and Environmental Controls
 
 ## Components
 - [Adafruit HUZZAH ESP8266](https://shop.pimoroni.com/products/adafruit-huzzah-esp8266-breakout)
 - [DHT22 Temperature and Humidity Sensor](https://www.amazon.co.uk/dp/B06Y37X9G4/)
 - [MH-Raindrop Detector](https://www.amazon.co.uk/dp/B01H5M2VKW/)
-- [TSL2561 Sensor](https://www.amazon.co.uk/gp/product/B0714N3RDB)
+- [BMP180 Pressure Sensor](https://www.amazon.co.uk/gp/product/B00YM2SFK4/)
+- [TSL2561 Light Sensor](https://www.amazon.co.uk/gp/product/B0714N3RDB/)
 
-## Why?
-Summer is approaching and as I am on the western side of the building this leads to an uncomfortable place to relax in the afternoon on my days off. Normally I can just turn on the fan and things begin to cool down, but I wanted a way to automate the process so that when things get to warm the fan kicks on automatically, even when I'm not around, to keep things cool.
+## Purpose
+Tracking of weather conditions for realtime data and to inform environmental controls (EC).
 
-The weather station will monitor conditions outside, both for upload to WeatherUnderground as well as to inform my envionmental controls.
+## Concept
+A small circuitboard holding an ESP8266 with a DHT22, TLS2165, BMP180 and a raindrop sensor. All components housed in a small enclosure and placed outside. Connected to small WiFi node which allows posting of weather information to WeatherUnderground and internal database to inform EC.
 
-### TODO
-- PCB to hold all components in small waterproof enclosure
-- Code to detect rain
-- Code to control fan and window shade
-- Code to turn on lamp after sundown
+Connects to a small Pi Zero W server that hosts routing and control software for the EC.
+
+## Name
+Esparonto for environment, both outside and inside.
+
+
