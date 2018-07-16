@@ -1,4 +1,4 @@
-# Medio | Weather and Environmental Controls
+# Humes | Weather and Environmental Controls
 
 ## Components
 - [Adafruit HUZZAH ESP8266](https://shop.pimoroni.com/products/adafruit-huzzah-esp8266-breakout)
@@ -16,6 +16,4 @@ A small circuitboard holding an ESP8266 with a DHT22, TLS2165, BMP180 and a rain
 Connects to a small Pi Zero W server that hosts routing and control software for the EC.
 
 ## Name
-Esparonto for environment, both outside and inside.
-
-
+HUMan Environmental Sensor
